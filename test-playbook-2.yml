@@ -16,4 +16,4 @@
     win_ping:
 
   - name: send msg
-    win_shell: msg.exe /server:localhost * "{{ Message }}"
+    win_shell: notepad.exe

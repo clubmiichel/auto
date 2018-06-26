@@ -8,6 +8,11 @@
 #      private: no
 #      default: "localhost"
 
+ansible_ssh_port: 5986
+ansible_connection: winrm
+ansible_winrm_server_cert_validation: ignore
+
+
   vars:
       Message: Toto
 
